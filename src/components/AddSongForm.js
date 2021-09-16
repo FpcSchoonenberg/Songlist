@@ -28,7 +28,7 @@ function AddSongForm(props) {
                     <option value='DEFAULT' disabled='disabled'>choose a genre</option>
                 </select>
                 <select id='addform_rate'
-                    onClick={props.handleChange}
+                    onChange={props.handleChange}
                     name='rate'
                     defaultValue={'DEFAULT'}
                 >
