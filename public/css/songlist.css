@@ -1,0 +1,131 @@
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,input,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd { 
+    margin: 0;
+}
+
+body{
+    background-color: dimgray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    border:3px solid rgb(116,116,139);
+    border-radius: 5px;    
+    width:1050px;
+    margin:50px auto;
+    background-image: url('../media/guitars.png');
+    background-repeat: no-repeat;
+    color:white;
+    opacity:0.85;
+    padding:50px;
+}
+
+thead{
+    color:rgb(9, 235, 9);    
+}
+
+form{   
+    border-top:5px solid rgb(116,116,139);
+    border-bottom:5px solid rgb(116,116,139);  
+    width:100%; 
+    margin:auto;
+    background-color:rgb(116,116,139) ;       
+}
+
+Nav{
+    border:3px solid rgb(116,116,139);
+    width:906px;
+    margin:auto;
+    padding-bottom:25px;   
+    padding-right:5px;
+    font-weight: bolder;
+    background-color: rgb(54,54,85);
+    background-image: linear-gradient(to right, rgb(54,54,85) , rgb(44, 22, 44));
+}
+
+table{
+    margin:auto;
+    width:900px;    
+    border:1px solid rgb(116,116,139); 
+    background-color: black;           
+}
+
+input[type=text]{
+    width:150px;
+    font-family: 'Courier New', Courier, monospace;
+    padding:0px;
+    background-color: whitesmoke;
+    border:2px solid rgb(174, 169, 169);
+}
+
+select{
+    width: 150px;
+    color:rgb(180, 104, 27);
+    font-family: 'Courier New', Courier, monospace;
+    margin:0px;
+    padding:0px;
+    background-color: whitesmoke;
+    border:1px solid rgb(174, 169, 169);
+}
+
+input[type='button'],button{
+    width:150px;
+    font-family: 'Courier New', Courier, monospace;
+    padding:0px;
+    background-color:rgb(189,206,214);
+    border:2px solid rgb(174, 169, 169);
+    border-radius: 3px;
+}
+input[type='button']:hover,button:hover{
+    background-color: rgb(137, 160, 170);
+}
+
+.songoverview{
+    width:906px;
+    margin:auto;
+    border:3px solid rgb(116,116,139)
+}
+
+a{
+    color:yellow;
+    text-decoration: none;
+    }
+
+a:hover{
+    color:orange
+}
+
+.help,.about{
+    color:rgb(226, 194, 161);
+    background-color:rgb(54,54,85);
+    width:906px;
+    margin:auto;
+    border:3px solid rgb(116,116,139);
+    background-image: linear-gradient(to right, rgb(54,54,85) , rgb(44, 22, 44));
+    padding:15px;
+}
+
+h3{
+    display: inline;
+    padding:15px;
+}
+
+h1{padding:20px 0px 25px 31px;
+}
